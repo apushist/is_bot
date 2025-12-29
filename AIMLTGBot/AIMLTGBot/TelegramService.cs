@@ -42,6 +42,7 @@ namespace AIMLTGBot
                 var messageText = update.Message.Text;
                 if(messageText.StartsWith("/"))
                     messageText = messageText.Substring(1);
+                messageText = messageText.ToLower().Trim().Replace('ё','е');//меняю регистр исключительно из-за замены
                 Console.WriteLine($"Received a '{messageText}' message in chat {chatId} with {username}.");
                 string answer = aiml.Talk(chatId, username, messageText);
                 if(answer != null && answer.Trim() != "")

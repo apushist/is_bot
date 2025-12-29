@@ -527,6 +527,139 @@
 			<srai>TELL FACT</srai>
 		</template>
 	</category>
+
+	<category>
+		<pattern>_ О ЧЕМ МЫ</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * МЫ</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ МЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ * МЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ О ЧЕМ МЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * МЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ МЫ</pattern>
+		<template>
+			Мы говорим об автомобильной марке <get name="car_type"></get>
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>О ЧЕМ РЕЧЬ</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ РЕЧЬ</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * РЕЧЬ</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ РЕЧЬ *</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ * РЕЧЬ *</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ О ЧЕМ РЕЧЬ *</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * РЕЧЬ *</pattern>
+		<template>
+			<srai>О ЧЕМ РЕЧЬ</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>О ЧЕМ ТЫ</pattern>
+		<template>
+			<srai>О ЧЕМ МЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ ТЫ</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * ТЫ</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ ТЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>О ЧЕМ * ТЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ О ЧЕМ ТЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ О ЧЕМ * ТЫ *</pattern>
+		<template>
+			<srai>О ЧЕМ ТЫ</srai>
+		</template>
+	</category>
 	
 	<!-- КОНЕЦ СЕКЦИИ: РАБОТА С МАШИНАМИ -->
 
